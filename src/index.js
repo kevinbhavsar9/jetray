@@ -5,7 +5,7 @@ import {createStore} from 'redux';
 
 import './index.css';
 import App from './components/App';
-import movies from './Reducers'
+import movies from './reducers'
 
 //configured reducer with store
 const store=createStore(movies);
